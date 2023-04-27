@@ -93,7 +93,7 @@ class UserLoginEmbeddingValidation:
             current_embedding (list): This embedding is extracted from the current images
 
         Returns:
-            int: simmilarity value
+            int: simmilarity value is good 
         """
         try:
             return np.dot(db_embedding, current_embedding) / (
